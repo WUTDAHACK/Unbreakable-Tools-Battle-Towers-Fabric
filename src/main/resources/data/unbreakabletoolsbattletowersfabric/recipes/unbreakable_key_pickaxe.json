@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "battletowers:key_pickaxe"
+    },
+
+    {
+      "item": "unbreakabletoolsbattletowersfabric:unbreakable_book"
+    }
+  ],
+
+  "result": {
+    "item": "unbreakabletoolsbattletowersfabric:unbreakable_key_pickaxe"
+  }
+}

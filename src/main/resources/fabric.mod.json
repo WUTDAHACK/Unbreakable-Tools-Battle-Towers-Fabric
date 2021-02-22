@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "unbreakabletoolsbattletowersfabric",
+  "version": "${version}",
+  "name": "Unbreakable Tools Battle Towers Fabric",
+  "description": "Adds unbreakable tools and armor from the Battle Towers mod!",
+  "authors": [
+    "WUTDAHACK",
+    "Drayla"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/unbreakabletoolsbattletowersfabric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "wutdahack.unbreakabletoolsbattletowersfabric.client.UnbreakableToolsBattleTowersClient"
+    ],
+    "main": [
+      "wutdahack.unbreakabletoolsbattletowersfabric.UnbreakableToolsBattleTowers"
+    ]
+  },
+  "mixins": [
+    "unbreakabletoolsbattletowersfabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*",
+    "minecraft": "1.16.4"
+  }
+}
